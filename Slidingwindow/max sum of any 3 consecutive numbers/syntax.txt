@@ -1,0 +1,12 @@
+sliding window is at 2 ways 
+1.fixed size
+2.variable size
+Syntax for fixed size 
+1.crate an array {}
+2.initialize variable for window size 
+3.initialize variable for storing answers
+int[]arr={}//crate an array
+int k=1//window size
+int ans =0 
+4.use 2 for loops
+ 
