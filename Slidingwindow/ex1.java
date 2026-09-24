@@ -18,7 +18,6 @@ public class ex1 {
         for (int j = k; j < arr.length; j++) {
             size += arr[j];
             size -= arr[j - k];
-
             compare = Math.max(size, compare);
         }
 
