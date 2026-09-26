@@ -3,10 +3,8 @@ public class ex7 {
         int[] customers = {1, 2, 3, 4, 5, 6};
         int[] grumpy = {0, 1, 0, 1, 1, 1};
         int m = 3;
-
         int n = customers.length;
         int satisfied = 0;
-
         for (int i = 0; i < n; i++) {
             if (grumpy[i] != 1) {
                 satisfied += customers[i];
